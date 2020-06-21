@@ -1,3 +1,55 @@
-.comn-width{
-    min-width: 1400px;
+.header{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header .header-top{
+    overflow: hidden;
+}
+.header .header-top .header-left{
+    float: left;
+    margin-top: 20px;
+}
+.header .header-top .header-left .logo{
+    display: block;
+    width: 400px;
+}
+
+.header .header-top .header-right{
+    float: right;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.header .header-top .header-right .header-tel{
+    background: url(../images/abscissa.images/tel_icon.png)left 14px no-repeat;
+    background-size: 20px 20px;
+    padding:10px 30px;
+    height: 20px;
+    border-right: 1px solid #333;
+}
+
+.header .header-top .header-right .header-tel{
+    float: left;
+}
+.header .header-top .header-right .header-tel span strong{
+    font-size: 18px;
+}
+.header .header-top .header-right .header-search{
+    float: right;
+    padding-left: 20px;
+}
+.header .header-top .header-right .header-search input{
+    outline-style: none ;
+    border: 1px solid #535353;
+    border-radius: 20px;
+    width: 130px;
+    padding: 0 60px;
+    height: 38px;
+    background: url(../images/abscissa.images/search_icon.png)10px center no-repeat ;
 }
