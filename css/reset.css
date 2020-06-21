@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5,h6,p,section{
+  padding: 0;
+  margin:0;
+}
+
+body{
+  font-family: "Microsoft YaHei";
+  font-size: 16px; 
+}
+
+
+a,a:link,a:hover,a:active,a:visited{
+  text-decoration: none;
+  color:#000;
+  padding:0;
+  margin: 0;
+}
+
+ul,li{
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+
+.allimg{
+  display: block;
+  width: 100%;
+}
+
