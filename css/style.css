@@ -511,35 +511,6 @@
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .gszc-wrap .comm-wrap{
     padding: 70px 0
 }
@@ -806,6 +777,147 @@
 }
 
 .zzsp-transportation1-wrap .wrap1 .content{
-    background: url(../images/qualification.images/qua_cartoon_img1.png) no-repeat center center; 
-    height: 630px;
+    position: relative;
+    background: url(../images/qualification.images/qua_cartoon_img1.png) no-repeat center bottom; 
+    height: 620px;
 }
+
+.zzsp-transportation1-wrap .wrap1 .content ul li{
+    display: inline-block;
+    background-color: #d80300;
+    border-radius: 20px;
+    padding: 25px 30px;
+}
+
+.zzsp-transportation1-wrap .wrap1 .content ul li h3{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.zzsp-transportation1-wrap .wrap1 .content ul li p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.zzsp-transportation1-wrap .wrap1 .content ul li:nth-child(1){
+    position: absolute;
+    top: 180px;
+    left: 0;
+}
+
+.zzsp-transportation1-wrap .wrap1 .content ul li:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.zzsp-transportation1-wrap .wrap1 .content ul li:nth-child(3){
+    position: absolute;
+    top: 180px;
+    right: 10px;
+}
+
+.zzsp-transportation1-wrap .wrap2{
+    background: url(../images/qualification.images/qualification_background1.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 800px;
+}
+
+.zzsp-transportation1-wrap .wrap2 .title-wrap h2{
+    color: #fff;
+}
+
+.zzsp-transportation1-wrap .wrap2 .title-wrap p{
+    color: #fff;
+}
+.zzsp-transportation1-wrap .wrap2 .content{
+    width: 1330px;
+    margin: 0 auto;
+}
+.zzsp-transportation1-wrap .wrap2 .content ul{
+    overflow: hidden;
+}
+.zzsp-transportation1-wrap .wrap2 .content ul li{
+    float: left;
+}
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(1) .text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px dashed #fff;
+    width: 250px;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(1) .xian{
+    display: block;
+    width: 100px;
+    border-top:1px solid #fff;
+    margin-top: 50px;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(3) .text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px dashed #fff;
+    width: 346px;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(3) .xian{
+    display: block;
+    width: 130px;
+    border-top:1px solid #fff;
+    margin-top: 50px;
+}
+.zzsp-transportation1-wrap .wrap2 .content ul{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.zzsp-transportation1-wrap .wrap2 .content ul .text{
+    position: relative;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content ul .text span:nth-child(2){
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    color: #313a64;
+    text-align: center;
+    line-height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(1) .text:hover{
+   color: #ffff00;
+   border: 1px dashed #ffff00;
+
+}
+.zzsp-transportation1-wrap .wrap2 .content ul:nth-child(3) .text:hover{
+    color: #ffff00;
+    border: 1px dashed #ffff00;
+ 
+ }
+ 
+ .zzsp-transportation1-wrap .wrap2 .content ul .text:hover span:nth-child(2){
+    background-color: #ffff00;
+}
+
+.zzsp-transportation1-wrap .wrap2 .content div{
+    border-right: 1px solid #fff;
+    height: 100px;
+    margin-right: 120px;
+}
+
