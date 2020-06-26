@@ -442,35 +442,6 @@
     right: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .gszc-wrap .comm-wrap{
     padding: 70px 0
 }
@@ -710,3 +681,33 @@
     background-size: 100% 100%;
 }
 
+
+
+.zzsp-wrap .comm-wrap{
+    padding: 70px 0
+}
+
+.zzsp-wrap .title-wrap{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.zzsp-wrap .title-wrap h2{
+    color:#000;
+    font-size: 48px;
+}
+
+.zzsp-wrap .title-wrap h2 .stronger{
+    color:#d80300;
+}
+
+.zzsp-wrap .title-wrap p {
+    color:#474747;
+    font-size: 22px;
+    padding-top: 18px;
+}
+
+.zzsp-transportation1-wrap .wrap1 .content{
+    background: url(../images/qualification.images/qua_cartoon_img1.png) no-repeat center center; 
+    height: 630px;
+}
