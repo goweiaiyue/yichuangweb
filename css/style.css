@@ -505,11 +505,268 @@
     width: 440px;
     height: 480px;
     border-radius:10px;
+    margin-right: 36px;
+    box-sizing: border-box;
+    padding:60px 44px 0; 
+    text-align: center;
+}
+
+.comm-model .wrap3 .content ul li section{
+    text-align: left;
+}
+
+.comm-model .wrap3 .content ul li:last-child{
+    margin-right: 0;
 }
 
 .comm-model .wrap3 .content ul li span.icon{
-    
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
 }
+
+.comm-model .wrap3 .content ul li:hover span.icon{
+    background-color: #d80300 !important;
+}
+
+.comm-model .wrap3 .content ul li:nth-child(1) span.icon{
+    background: #c6c6c6 url(../images/abscissa.images/service_icon1.png) no-repeat center center;
+    background-size: 100px;
+}
+
+.comm-model .wrap3 .content ul li:nth-child(2) span.icon{
+    background: #c6c6c6 url(../images/abscissa.images/service_icon2.png) no-repeat center center;
+    background-size: 100px;
+}
+
+.comm-model .wrap3 .content ul li:nth-child(3) span.icon{
+    background: #c6c6c6 url(../images/abscissa.images/service_icon3.png) no-repeat center center;
+    background-size: 100px;
+}
+
+.comm-model .wrap3 .content ul li h3{
+    font-size: 30px;
+    color:#333;
+    margin:40px 0 16px;
+}
+
+.comm-model .wrap3 .content ul li .line{
+    width: 40px;
+    height: 3px;
+    display: inline-block;
+    background-color: #d80300;
+}
+
+.comm-model .wrap3 .content ul li section{
+   color:#222;
+   font-size: 18px;
+   line-height: 36px;
+   padding-top: 12px;
+}
+
+.comm-model .wrap4 .content ul{
+    overflow: hidden;
+}
+
+.comm-model .wrap4 .content ul li{
+    width: 680px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 34px;
+    height: 70px;
+    line-height: 70px;
+    border:1px solid #424242;
+    border-radius: 35px;
+    padding-left: 100px;
+    background: url(../images/abscissa.images/doubt_icon.png) no-repeat 40px center;
+}
+
+.comm-model .wrap4 .content ul li a{
+    color: #424242;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comm-model .wrap4 .content ul li:hover a{
+    color: #d80300;
+}
+
+.comm-model .wrap4 .content ul li:nth-child(2n){
+    margin-right: 0;
+}
+
+.comm-model .wrap5 {
+    background-color: #f3f3f3;
+    padding:30px 0;
+}
+
+.comm-model .wrap5 .content ul{
+    overflow: hidden;
+}
+
+.comm-model .wrap5 .content ul li{
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    border-left: 1px solid #cdcdcd;
+    padding-left: 120px;
+}
+
+
+.comm-model .wrap5 .content ul li:first-child{
+    border-left: 0;
+    padding-left: 90px;
+}
+
+.comm-model .wrap5 .content ul li p:nth-child(1){
+    font-weight: bold;
+    color: #333;
+    font-size: 22px;
+    padding-bottom: 14px;
+}
+
+.comm-model .wrap5 .content ul li p:nth-child(2){
+    color: #818181;
+    font-size: 14px;
+}
+
+.comm-model .wrap5 .content ul li:nth-child(1){
+    background: url(../images/abscissa.images/main_icon1.png) no-repeat left center;
+    background-size: 66px;
+}
+
+.comm-model .wrap5 .content ul li:nth-child(2){
+    background: url(../images/abscissa.images/main_icon2.png) no-repeat 30px center;
+    background-size: 66px;
+}
+
+
+.comm-model .wrap5 .content ul li:nth-child(3){
+    background: url(../images/abscissa.images/main_icon3.png) no-repeat 30px center;
+    background-size: 66px;
+}
+
+.comm-model .wrap5 .content ul li:nth-child(4){
+    background: url(../images/abscissa.images/main_icon4.png) no-repeat 30px center;
+    background-size: 66px;
+}
+
+.footer-wrap{
+    background-color: #2b2b2b;
+}
+
+.footer-wrap .footer-bottom{
+    overflow: hidden;
+    border-top: 1px solid #5d5d5d;
+    line-height: 44px;
+    font-size: 14px;
+    color:#e3e3e3;
+}
+
+.footer-wrap .footer-top{
+    overflow: hidden;
+    padding:110px 0 60px;
+}
+
+.footer-wrap .footer-top .comm-width>div{
+    float: left;
+}
+
+.footer-wrap .footer-top .code-wrap{
+    text-align: center;
+}
+
+.footer-wrap .footer-top .code-wrap p{
+    font-size: 14px;
+    color: #d7dee7;
+    padding-top: 18px;
+}
+
+
+
+.footer-wrap .footer-top .code-wrap .tag-wrap{
+
+}
+
+.footer-wrap .footer-top .tag-wrap ul{
+    float: left;
+    margin-left: 102px;
+}
+
+.footer-wrap .footer-top .tag-wrap ul li{
+    padding-bottom: 12px;
+}
+.footer-wrap .footer-top .tag-wrap ul li:last-child{
+    padding-bottom:0;
+}
+
+
+.footer-wrap .footer-top .tag-wrap ul h3{
+    color:#e3e3e3;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.footer-wrap .footer-top .tag-wrap ul a{
+    color:#e3e3e3;
+    font-size: 14px;
+}
+
+.footer-wrap .footer-top .contact-wrap{
+    padding-left: 110px;
+    text-align: center;
+}
+
+.footer-wrap .footer-top .contact-wrap h4{
+    color:#e3e3e3;
+    font-size: 18px;
+}
+
+.footer-wrap .footer-top .contact-wrap a{
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 26px;
+    color: #d80300;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 16px 0;
+}
+
+.footer-wrap .footer-top .contact-wrap p{
+    color:#e3e3e3;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gszc-wrap .comm-wrap{
     padding: 70px 0
