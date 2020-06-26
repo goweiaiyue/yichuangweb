@@ -393,6 +393,11 @@
 
 .comm-model .wrap2{
     background: url(../images/abscissa.images/background_img6.jpg);
+    background-size: cover;
+}
+
+.comm-model .wrap2 .content{
+    position: relative;
 }
 
 .comm-model .wrap2 .content .swiper-container{
@@ -432,15 +437,108 @@
     line-height: 36px;
 }
 
-.comm-model .wrap2 .content .swiper-slide.item1 a{
-    background: #e8695f url(../images/abscissa.images/need_icon1.png) no-repeat -40px bottom;
-}
-
 .comm-model .wrap2 .content .swiper-slide span{
     position: absolute;
     bottom: 50px;
     right: 24px;
 }
+
+.comm-model .wrap2 .content .swiper-wrapper .swiper-slide.item1 a{
+    background: #e8695f url(../images/abscissa.images/need_icon1.png) no-repeat -40px bottom;
+}
+
+.comm-model .wrap2 .content .swiper-wrapper .swiper-slide.item2 a{
+    background: #515b7b url(../images/abscissa.images/need_icon2.png) no-repeat -40px bottom;
+}
+
+.comm-model .wrap2 .content .swiper-wrapper .swiper-slide.item3 a{
+    background: #445151 url(../images/abscissa.images/need_icon3.png) no-repeat -40px bottom;
+}
+
+.comm-model .wrap2 .content .swiper-wrapper .swiper-slide.item4 a{
+    background: #638585 url(../images/abscissa.images/need_icon4.png) no-repeat -40px bottom;
+}
+
+.comm-model .wrap2 .content .swiper-wrapper .swiper-slide.item5 a{
+    background: #e59d4b url(../images/abscissa.images/need_icon5.png) no-repeat -40px bottom;
+}
+
+.comm-model .wrap2 .content  .swiper-button span{
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    cursor: pointer;
+    outline: none;
+}
+
+.comm-model .wrap2 .content  .swiper-button span.swiper-prev{
+    background: url(../images/abscissa.images/forward_icon.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top:240px;
+    z-index: 9999;
+ }
+
+.comm-model .wrap2 .content  .swiper-button span.swiper-next{
+    background: url(../images/abscissa.images/backward_icon.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top:240px;
+    z-index: 9999;
+    right: 0;
+}
+
+.comm-model .wrap3{
+    background: url(../images/abscissa.images/background_img7.jpg);
+    background-size: cover;
+}
+
+.comm-model .wrap3 .content ul{
+    overflow: hidden;
+}
+
+
+
+.comm-model .wrap3 .content ul li{
+    float: left;
+    background-color: #fff;
+    width: 440px;
+    height: 480px;
+    border-radius:10px;
+}
+
+.comm-model .wrap3 .content ul li span.icon{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .gszc-wrap .comm-wrap{
     padding: 70px 0
