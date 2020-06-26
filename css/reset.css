@@ -8,6 +8,10 @@ body{
   font-size: 16px; 
 }
 
+@font-face{
+  　font-family:'yingwen1';
+  　src:url('../fonts/HelveticaNeueLTCom-BlkIt.ttf');
+}
 
 a,a:link,a:hover,a:active,a:visited{
   text-decoration: none;
