@@ -685,11 +685,6 @@
 }
 
 
-
-.footer-wrap .footer-top .code-wrap .tag-wrap{
-
-}
-
 .footer-wrap .footer-top .tag-wrap ul{
     float: left;
     margin-left: 102px;
@@ -740,6 +735,423 @@
 .footer-wrap .footer-top .contact-wrap p{
     color:#e3e3e3;
     font-size: 14px;
+}
+
+.index-wrap .comm-wrap{
+    padding:90px 0 120px
+}
+
+
+.index-wrap .title-wrap{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.index-wrap .title-wrap h3{
+    font-size: 40px;
+    color:#000;
+    padding-bottom: 22px;
+    font-weight: bold;
+}
+.index-wrap .title-wrap h3 .stronger{
+    color: #d80300;
+}
+
+.index-wrap .title-wrap p{
+    font-size: 24px;
+    color:#474747;
+}
+
+.index-wrap .title-wrap p span.line {
+    height: 1px;
+    background-color: #838383;
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+    margin:0 26px
+}
+
+.index-wrap .wrap1{
+    background: url(../images/abscissa.images/background_img1.jpg);
+}
+
+.index-wrap .wrap1 .content{
+    height: 300px;
+    background: url(../images/abscissa.images/xuxian.png) no-repeat center;
+    position: relative;
+}
+.index-wrap .wrap1 .content div{
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+}
+.index-wrap .wrap1 .content div.big{
+    font-size: 24px;
+    color:#000;
+    font-weight: normal;
+}
+
+.index-wrap .wrap1 .content div:first-child{
+    background: url(../images/abscissa.images/kuang_icon1.png) no-repeat center center;
+    width: 156px;
+    height: 104px;
+    top:68px;
+    left:18px;
+    line-height: 54px;
+    text-align: center;
+}
+
+
+.index-wrap .wrap1 .content div:nth-child(2){
+    background: url(../images/abscissa.images/kuang_icon2.png) no-repeat center center;
+    width: 118px;
+    height: 82px;
+    top:100px;
+    left:320px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.index-wrap .wrap1 .content div:nth-child(3){
+    background: url(../images/abscissa.images/kuang_icon3.png) no-repeat center center;
+    width: 118px;
+    height: 85px;
+    top:240px;
+    left:434px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.index-wrap .wrap1 .content div:nth-child(4){
+    background: url(../images/abscissa.images/kuang_icon4.png) no-repeat center center;
+    width: 118px;
+    height: 85px;
+    top:24px;
+    left:614px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.index-wrap .wrap1 .content div:nth-child(5){
+    background: url(../images/abscissa.images/kuang_icon5.png) no-repeat center center;
+    width: 120px;
+    height: 86px;
+    top:166px;
+    left:780px;
+    line-height: 126px;
+    text-align: center;
+}
+
+.index-wrap .wrap1 .content div:nth-child(6){
+    background: url(../images/abscissa.images/kuang_icon6.png) no-repeat center center;
+    width: 118px;
+    height: 85px;
+    top:64px;
+    right:320px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.index-wrap .wrap1 .content div:last-child{
+    background: url(../images/abscissa.images/kuang_icon7.png) no-repeat center center;
+    width: 156px;
+    height: 104px;
+    top:42px;
+    right:22px;
+    line-height: 54px;
+    text-align: center;
+}
+
+
+.index-wrap .wrap2{
+    background-color: #f5f5f5;
+}
+
+.index-wrap .wrap2 .content{
+    position: relative;
+}
+.index-wrap .wrap2 .jingying-swiper{
+    width: 1270px;
+    margin:0 auto;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide{
+    height: 410px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide:hover .hover-wrap{
+    display: block;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 90px;
+}
+
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap .name{
+    font-size: 30px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap .zhiwei{
+    font-size: 18px;
+    color:#fff;
+    padding: 14px 0;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap .line{
+    height: 3px;
+    width: 26px;
+    background-color: #d80300;
+    display: inline-block;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap a>div{
+    width: 180px;
+    height: 42px;
+    line-height: 42px;
+    color:#fff;
+    font-size: 18px;
+    margin: 30px auto 60px;
+    border:1px solid #fff;
+}
+
+.index-wrap .wrap2 .jingying-swiper .swiper-slide .hover-wrap a>span{
+    width: 110px;
+    height: 34px;
+    line-height: 34px;
+    color:#d80300;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;;
+}
+
+
+.index-wrap .wrap2  .swiper-button span{
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    z-index: 9999;
+    top:190px;
+}
+
+.index-wrap .wrap2  .swiper-button span.swiper-prev{
+    background: url(../images/abscissa.images/forward_icon.png) no-repeat center center;
+    background-size: 100% 100%;
+ }
+
+.index-wrap .wrap2  .swiper-button span.swiper-next{
+    background: url(../images/abscissa.images/backward_icon.png) no-repeat center center;
+    background-size: 100% 100%;
+    right: 0;
+}
+
+.index-wrap .wrap3 .title-wrap h3{
+    color:#fff;
+}
+
+.index-wrap .wrap3 .title-wrap p{
+    color:#c6c6c6;
+}
+
+.index-wrap .wrap3{
+    background: url(../images/abscissa.images/background_img2.jpg);
+    background-size: cover;
+}
+.index-wrap .wrap3 .content ul li{
+    height: 175px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.index-wrap .wrap3 .content ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+
+.index-wrap .wrap3 .content ul li:nth-child(2n+1){
+    background: url(../images/abscissa.images/index_touming.png) no-repeat center center;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n){
+    background: url(../images/abscissa.images/index_touming2.png) no-repeat center center;
+}
+
+.index-wrap .wrap3 .content ul li .avator{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n+1) .avator{
+    left:127px;
+    top: 13px;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n) .avator{
+    right:127px;
+    top: 13px;
+}
+
+.index-wrap .wrap3 .content ul li section{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+}
+
+.index-wrap .wrap3 .content ul li section span{
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+}
+
+.index-wrap .wrap3 .content ul li section span.icon-left{
+    background: url(../images/abscissa.images/renwu_biaodian_1.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-right: 20px;
+}
+
+
+.index-wrap .wrap3 .content ul li section span.icon-right{
+    background: url(../images/abscissa.images/renwu_biaodian_2.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 20px;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n+1) section{
+    top:80px;
+    left: 380px;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n) section{
+    top:80px;
+    left: 180px;
+}
+
+.index-wrap .wrap3 .content ul li p{
+    color: #ffde00;
+    position: absolute;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n+1) p{
+    right: 160px;
+    top: 110px;
+}
+
+.index-wrap .wrap3 .content ul li:nth-child(2n) p{
+    right: 360px;
+    top: 110px;
+}
+
+.index-wrap .wrap3 .content ul li p span.line{
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 50px;
+    background-color: #ffde00;
+    margin-right: 16px;
+}
+.index-wrap .wrap4 .content>ul{
+    float: left;
+}
+.index-wrap .wrap4 .content>ul>li{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}  
+
+.index-wrap .wrap4 .content>ul>li:nth-child(2){
+    margin: 0 100px;
+}
+
+.index-wrap .wrap4 .content>ul>li{
+    text-align: center;
+}
+
+
+.index-wrap .wrap4 .content>ul>li .icon{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #cbcbcb;
+}
+
+.index-wrap .wrap4 .content>ul>li:hover .icon{
+    border-color: #d80300;
+}
+
+.index-wrap .wrap4 .content>ul>li:nth-child(1) .icon{
+    background: url(../images/abscissa.images/news_icon2.png) no-repeat center center;
+}
+
+.index-wrap .wrap4 .content>ul>li:nth-child(1):hover .icon{
+    background: url(../images/abscissa.images/news_icon1.png) no-repeat center center;
+}
+
+.index-wrap .wrap4 .content>ul>li:nth-child(2) .icon{
+    background: url(../images/abscissa.images/news_icon4.png) no-repeat center center;
+}
+
+.index-wrap .wrap4 .content>ul>li:nth-child(2):hover .icon{
+    background: url(../images/abscissa.images/news_icon3.png) no-repeat center center;
+}
+
+
+.index-wrap .wrap4 .content>ul>li:nth-child(3) .icon{
+    background: url(../images/abscissa.images/news_icon6.png) no-repeat center center;
+}
+
+.index-wrap .wrap4 .content>ul>li:nth-child(3):hover .icon{
+    background: url(../images/abscissa.images/news_icon5.png) no-repeat center center;
+}
+
+.index-wrap .wrap4 .content>ul>li h2{
+    color:#000;
+    font-size: 30px;
+    padding: 32px 0 6px;
+}
+
+.index-wrap .wrap4 .content>ul>li .line{
+    width: 40px;
+    height: 4px;
+    background-color: #d80300;
+    display: inline-block;
+}
+
+.index-wrap .wrap4 .content>ul>li ul li{
+    
 }
 
 

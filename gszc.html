@@ -542,7 +542,15 @@
     <script src="./js/bootstrap.min.js"></script>
     <script>
         $(function() {
-            var certifySwiper = new Swiper('.swiper-container', {
+            var mySwiper = new Swiper ('.banner-wrap .swiper-container', {
+                loop: true, // 循环模式选项
+                autoplay:true,
+                // 如果需要分页器
+                pagination: {
+                    el: '.swiper-pagination',
+                }
+            })        
+            var certifySwiper = new Swiper('.comm-wrap .swiper-container', {
                 watchSlidesProgress: true,
                 slidesPerView: 'auto',
                 centeredSlides: true,
@@ -578,7 +586,6 @@
                             var slide = this.slides.eq(i)
                             slide.transition(transition);
                         }
-
                     }
                 }
 
