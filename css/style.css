@@ -14,11 +14,23 @@
     margin: 0 auto;
 }
 
+.back-top{
+    width: 50px;
+    height: 50px;
+    background: #7f7f7f url(../images/abscissa.images/top_icon.png) no-repeat center center;
+    position: fixed;
+    right: 60px;
+    bottom: 140px;
+    cursor: pointer;
+    z-index: 99;
+    display: none;
+}
+
 .tooltip-wrap{
     position: fixed;
     right: 0;
     top:340px;
-    z-index: 99;
+    z-index: 100;
 }
 
 .tooltip-wrap ul li{
@@ -172,6 +184,7 @@
     position: absolute;
     top:41px;
     width:1400px;
+    z-index: 99;
     display: none;
 }
 
@@ -275,10 +288,20 @@
     border-bottom: 1px solid #d80300;
     border-right: 1px solid #d80300;
 }
+
+
 .nav-wrap .menu-toggle-wrap .menu-panes .menu-group>ul>li{
     border-bottom: 1px dashed #e5e5e5;
     padding: 44px 0;
     overflow: hidden;
+}
+
+.nav-wrap .menu-toggle-wrap .menu-panes>ul>li{
+    display: none;
+}
+
+.nav-wrap .menu-toggle-wrap .menu-panes>ul>li:first-child{
+    display: block;
 }
 
 
@@ -352,7 +375,6 @@
 
 .banner-wrap{
     width: 100%;
-    height: 620px;
 }
 
 .swiper-container{
@@ -542,22 +564,20 @@
     height: 53px;
     cursor: pointer;
     outline: none;
+    position: absolute;
+    top:240px;
+    z-index: 99;
 }
 
 .comm-model .wrap2 .content  .swiper-button span.swiper-prev{
     background: url(../images/abscissa.images/forward_icon.png) no-repeat center center;
     background-size: 100% 100%;
-    position: absolute;
-    top:240px;
-    z-index: 9999;
+    
  }
 
 .comm-model .wrap2 .content  .swiper-button span.swiper-next{
     background: url(../images/abscissa.images/backward_icon.png) no-repeat center center;
     background-size: 100% 100%;
-    position: absolute;
-    top:240px;
-    z-index: 9999;
     right: 0;
 }
 
@@ -1033,7 +1053,7 @@
     cursor: pointer;
     outline: none;
     position: absolute;
-    z-index: 9999;
+    z-index: 99;
     top:190px;
 }
 
@@ -1387,16 +1407,20 @@
 
 .gszc-wrap .wrap1 .content ul{
     overflow: hidden;
+    text-align: center;
+    font-size: 0;
 }
 
 .gszc-wrap .wrap1 .content ul li{
-    float: left;
+    display: inline-block;
     position: relative;
     background: url(../images/abscissa.images/jiantou_icon.png) no-repeat right center;
     padding-right: 55px;
     margin-right: 20px;
 }
 .gszc-wrap .wrap1 .content ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
     background: none;
 }
 .gszc-wrap .wrap1 .content ul li img{
@@ -4767,10 +4791,6 @@
     padding-top: 18px;
 }
 
-.sbzb-wrap .wrap1{
-    
-}
-
 .sbzb-wrap .wrap1 .content .left{
     width: 1000px;
     height: 720px;
@@ -5216,3 +5236,179 @@
     height: 200px;
     padding: 0 50px 0 90px;
  }
+
+
+.zlbq-wrap .comm-wrap{
+    padding: 70px 0
+}
+
+.zlbq-wrap .title-wrap{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.zlbq-wrap .title-wrap h2{
+    color:#000;
+    font-size: 48px;
+}
+
+.zlbq-wrap .title-wrap h2 .stronger{
+    color:#d80300;
+}
+
+.zlbq-wrap .title-wrap p {
+    color:#474747;
+    font-size: 22px;
+    padding-top: 18px;
+}
+
+.zlbq-wrap .wrap1{
+
+}
+
+.zlbq-wrap .wrap1 .content{
+    text-align: center;
+    font-size: 0;
+}
+
+.zlbq-wrap .wrap1 .content ul{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.zlbq-wrap .wrap1 .content ul li{
+    margin-bottom: 16px;
+}
+
+.zlbq-wrap .wrap1 .content ul li:last-child{
+    margin-bottom: 0;
+}
+
+.zlbq-wrap .wrap1 .content ul li>div{
+    color:#333;
+    font-size: 24px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.zlbq-wrap .wrap1 .content ul li>div:nth-child(1) {
+    border:3px solid #d9b766;
+    width: 750px;
+    height: 76px;
+    line-height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.zlbq-wrap .wrap1 .content ul li>div:nth-child(2){
+    height: 70px;
+    line-height: 70px;
+    background: url(../images/trademark.images/jiantou_icon1.png) no-repeat left center;
+    padding-left: 100px;
+    margin-top: 12px;
+}
+
+.zlbq-wrap .wrap1 .content img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+}
+
+.zlbq-wrap .wrap2{
+    background-color: #e8e8e8;
+}
+
+.zlbq-wrap .wrap2 .content ul{
+    font-size: 0;
+    text-align: center;
+}
+.zlbq-wrap .wrap2 .content ul li{
+    display: inline-block;
+    background: url(../images/trademark.images/dian_icon.png) no-repeat right center;
+    background-size: 66px 19px;
+    padding-right: 100px;
+    margin-right: 33px;
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.zlbq-wrap .wrap2 .content ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
+    background: none;
+}
+
+.zlbq-wrap .wrap2 .content ul li h3{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    text-align: center;
+    
+}
+
+.zlbq-wrap .wrap3{
+
+
+    
+}
+
+.zlbq-wrap .wrap3 .content ul {
+    font-size: 0;
+    text-align: center;
+}
+
+.zlbq-wrap .wrap3 .content ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(2n+1) {
+    padding-top: 70px;
+}
+
+.zlbq-wrap .wrap3 .content ul li>div{
+    width: 261px;
+    height: 90px;
+    text-align: center;
+    border-width: 4px;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.zlbq-wrap .wrap3 .content ul li>div span{
+    color:#333;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(1)>div{
+    border-color: #d99998;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(2)>div{
+    border-color: #d9b766;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(3)>div{
+    border-color: #879a6a;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(4)>div{
+    border-color: #158d86;
+}
+
+.zlbq-wrap .wrap3 .content ul li:nth-child(5)>div{
+    border-color: #7a5d8f;
+}
+
