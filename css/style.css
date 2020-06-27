@@ -5014,3 +5014,205 @@
     font-style: italic;
 }
 
+.sbzc-wrap .comm-wrap{
+    padding: 70px 0
+}
+
+.sbzc-wrap .title-wrap{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.sbzc-wrap .title-wrap h2{
+    color:#000;
+    font-size: 48px;
+}
+
+.sbzc-wrap .title-wrap h2 .stronger{
+    color:#d80300;
+}
+
+.sbzc-wrap .title-wrap p {
+    color:#474747;
+    font-size: 22px;
+    padding-top: 18px;
+}
+.sbzc-sbzc1-wrap .wrap1{
+    background:url(../images/trademark.images/trademark_background3.jpg) no-repeat center center;
+    background-size: cover;
+    height: 780px;
+}
+.sbzc-sbzc1-wrap .wrap1 .content{
+    margin-top: 90px;
+}
+.sbzc-sbzc1-wrap .wrap1 .content>div{
+    margin-bottom: 30px;
+}
+.sbzc-sbzc1-wrap .wrap1 .content>div .pull-left{
+    background:url(../images/trademark.images/q_kuang.png) no-repeat center center;
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #274259;
+}
+.sbzc-sbzc1-wrap .wrap1 .content>div .pull-right{
+    background:url(../images/trademark.images/a_kuang.png) no-repeat center center;
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+.sbzc-sbzc1-wrap .wrap2{
+    background-color: #e8e8e8;
+}
+.sbzc-sbzc1-wrap .wrap2 .content ul li{
+    float: left;
+    width: 236px;
+    margin-right: 55px;
+}
+.sbzc-sbzc1-wrap .wrap2 .content ul li:last-child{
+    margin-right: 0;
+}
+.sbzc-sbzc1-wrap .wrap2 .content ul li h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+.sbzc-sbzc1-wrap .wrap2 .content ul li{
+    float: left;
+}
+
+.sbzc-sbzc1-wrap .wrap3 .content{
+    background: url("../images/trademark.images/service_img.png") no-repeat center center;
+    height: 630px;
+    position: relative;
+}
+.sbzc-sbzc1-wrap .wrap3 .content ul li{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.sbzc-sbzc1-wrap .wrap3 .content ul li>span{
+    display: block;
+    margin-top: 70px;
+}
+
+.sbzc-sbzc1-wrap .wrap3 .content ul li:nth-child(1){
+   position: absolute;
+   top: 50px;
+   left: 0;
+   background: url("../images/trademark.images/service_icon1.png");
+   background-size: cover;
+   width: 300px;
+   height: 200px;
+   padding: 0 90px 0 50px;
+}
+
+.sbzc-sbzc1-wrap .wrap3 .content ul li:nth-child(2){
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    background: url("../images/trademark.images/service_icon2.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 90px 0 50px;
+ }
+ .sbzc-sbzc1-wrap .wrap3 .content ul li:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/trademark.images/service_icon3.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 50px 0 90px;
+ }
+ .sbzc-sbzc1-wrap .wrap3 .content ul li:nth-child(4){
+    position: absolute;
+    top: 220px;
+    right: 40px;
+    background: url("../images/trademark.images/service_icon4.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 50px 0 90px;
+ }
+ .sbzc-sbzc1-wrap .wrap3 .content ul li:nth-child(5){
+    position: absolute;
+    top: 440px;
+    right: 0;
+    background: url("../images/trademark.images/service_icon5.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 50px 0 90px;
+ }
+
+
+
+
+ .sbzc-sbzc1-wrap .wrap3gn .content{
+    background: url("../images/trademark.images/service_img.png") no-repeat center center;
+    height: 580px;
+    position: relative;
+}
+.sbzc-sbzc1-wrap .wrap3gn .content ul li{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.sbzc-sbzc1-wrap .wrap3gn .content ul li>span{
+    display: block;
+    margin-top: 70px;
+}
+
+.sbzc-sbzc1-wrap .wrap3gn .content ul li:nth-child(1){
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: url("../images/trademark.images/service_icon6.png");
+   background-size: cover;
+   width: 300px;
+   height: 200px;
+   padding: 0 90px 0 50px;
+}
+
+.sbzc-sbzc1-wrap .wrap3gn .content ul li:nth-child(2){
+    position: absolute;
+    top: 360px;
+    left: 70px;
+    background: url("../images/trademark.images/service_icon7.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 90px 0 50px;
+ }
+ .sbzc-sbzc1-wrap .wrap3gn .content ul li:nth-child(3){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/trademark.images/service_icon8.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 50px 0 90px;
+ }
+ .sbzc-sbzc1-wrap .wrap3gn .content ul li:nth-child(4){
+    position: absolute;
+    top: 370px;
+    right: 70px;
+    background: url("../images/trademark.images/service_icon9.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    padding: 0 50px 0 90px;
+ }
